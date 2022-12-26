@@ -1,4 +1,4 @@
-print("Sistema vacacional de Rapi")
+print("Sistema vacacional de Rappi")
 
 
 Nombre = input("Ingrese su nombre, por favor")
