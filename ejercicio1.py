@@ -1,13 +1,13 @@
-print("Sistema vacacional de Rappi")
-
-
-Nombre = input("Ingrese su nombre, por favor")
-
-Clave = int(input("Ingrese su clave, por favor"))
-
-Años = int(input("Ingrese los años que lleva en la empresa, por favor"))
-
-
+print("=======================================================")
+print(".:Sistema vacacional de Rappi:.")
+print("=======================================================")
+Nombre = input("Ingrese su nombre, por favor ")
+print("=======================================================")
+Clave = int(input("Ingrese su clave, por favor "))
+print("=======================================================")
+Años = int(input("Ingrese los años que lleva en la empresa, por favor "))
+print("=======================================================")
+#====================================================================
 if Clave == 1234:
     if Años == 1:
         print(Nombre + " Usted tiene 6 días de vacaciones.")
@@ -17,6 +17,7 @@ if Clave == 1234:
         print(Nombre + " Usted tiene 20 días de vacaciones.")
     else:
         print(Nombre + " Usted no tiene derecho a vacaciones.")
+#====================================================================
 elif Clave == 4321:
     if Años == 1:
         print(Nombre + " Usted tiene 7 días de vacaciones.")
@@ -26,6 +27,7 @@ elif Clave == 4321:
         print(Nombre + " Usted tiene 22 días de vacaciones.")
     else:
         print(Nombre + " Usted no tiene derecho a vacaciones.")
+#====================================================================
 elif Clave == 4231:
     if Años == 1:
         print(Nombre + " Usted tiene 10 días de vacaciones.")
@@ -35,5 +37,7 @@ elif Clave == 4231:
         print(Nombre + " Usted tiene 30 días de vacaciones.")
     else:
         print(Nombre + " Usted no tiene derecho a vacaciones.")
+#====================================================================
 else:
     print ("Clave Incorrecta")
+#====================================================================
